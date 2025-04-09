@@ -104,7 +104,7 @@ const TeamRoster = () => {
                             />
                             <p>{player.games.cs2.faceit_elo} Elo</p>
                         </div>
-                        <a href={player.faceit_url} target="_blank" rel="noopener noreferrer">
+                        <a href={`https://www.faceit.com/en/players/${player.nickname}`} target="_blank" rel="noopener noreferrer">
                             <button>Profile</button>
                         </a>
                     </div>
